@@ -1,0 +1,250 @@
+body{
+    margin: 0 0 0 0;
+}
+
+header{
+    width: 100%;
+    background-color: #0F0F0F;
+    margin: 0 0 0 0;
+
+    padding-top: 14px;
+    padding-bottom: 14px;
+}
+
+#contact-info{
+    color:#969696; 
+    font-family:'PT Sans', sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+}
+
+#navbar{
+    width: 100%;
+    background-color: #0F0F0F;
+
+    display: flex;
+    position: sticky;
+    top: 0;
+}
+
+#name{
+    width: 50vw;
+    padding-top: 15px;
+    padding-bottom: 16px;
+    justify-content: center;  
+    display: flex;
+    align-items: center;
+}
+
+#buttons{
+    width: 50vw;
+    display: flex;
+}
+
+#navbar-button{
+    background-color: #0F0F0F;
+    color: #969696;
+    border: 0px;
+    font-family: 'PT Sans', sans-serif;
+    font-weight: 400;
+}
+
+#navbar-button:hover{
+    background-color: #1F1F1F;
+    color: white;
+    border: 0px;
+    font-family: 'PT Sans', sans-serif;
+}
+
+#main-info{
+    background: url(../logoman.png) no-repeat center;
+    background-color: #0F0F0F;
+    width: 100%;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#info-box{
+    border-width: 4px;
+    border-color: white;
+    width: 320px;
+    height: 320px;
+    border-style: solid;
+
+    margin:0 auto;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 160px;
+}
+
+#city-text{
+    font-family:'PT Sans', sans-serif;
+    font-size: 22px;
+    color: white;
+
+    margin-top: 7px;
+}
+
+#city-box{
+    border-top: 2px;
+    border-left: 0px;
+    border-right: 0px;
+    border-bottom: 0px;
+
+    border-color:white;
+    border-style: solid;
+}
+
+#info-text{
+    color:white;
+    font-family: 'PT Sans',sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    width: 730px;
+    margin: 80px auto;
+    text-transform: uppercase;
+}
+
+
+#news-presentation{
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    margin-left: 0px;
+}
+
+#season{
+    padding:0px 0px 55px 0;
+}
+
+
+ #season-year{
+    text-align: center;
+    color: white;
+    margin-top: 93px;
+    margin-bottom: 50px;
+    font-family: Playfair Display;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+#product-line{
+    display: flex;
+    align-items: center;
+    margin-right:58px;
+    margin-left: 55px;
+    gap: 50px;
+}
+
+
+.product-slot{
+    background-color: #191B1C;
+    padding: 55px 22px 56px 23px;
+}
+
+.product-spec{
+    margin-top:25px;
+    margin-left:25px;
+    font-family: Playfair Display;
+    color: white;
+}
+.product-price{
+    margin-left:25px;
+    font-family: Playfair Display;
+    color: white;
+} 
+
+#collection{
+    background-image: url("collectionman.png");
+    background-repeat: no-repeat;
+    width: 880px;
+    height: 730px;
+    background-color: black;
+} 
+
+#year-collection{
+    display: flex;
+    justify-content: center;
+    background-color: black;
+}
+
+
+#collection-name{
+
+    width: 376px;
+    height: 39px;
+
+    font-family: 'Playfair Display', serif;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    text-transform: uppercase;
+
+    margin: 0 auto;
+    margin-top: 100px;
+
+    margin-bottom: 40px;
+
+
+/* white */
+
+color: #FFFFFF;
+}
+
+#collection-desc{
+    color: white;
+
+    width: 471px;
+
+    font-family: 'PT Sans',sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 150%;
+
+    margin-left: 285px;
+    margin-right: 284px;
+    margin-top: auto;
+    margin-bottom: auto;
+
+    text-align: center;
+    justify-content: center;
+}
+
+#new-arrivals{
+    background-color: black;
+    padding-top: 120px;
+}
+
+#new-title{
+    width: 440px;
+    height: 48px;
+
+    font-family: 'Playfair Display',serif;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    text-transform: uppercase;
+
+    color: #FFFFFF;
+
+    margin:0 auto;
+    margin-bottom: 121px;
+
+}
+
+#arrival-products{
+    display: flex;
+    gap:23px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
