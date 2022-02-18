@@ -73,8 +73,6 @@ header{
     height: 320px;
     border-style: solid;
 
-    margin:0 auto;
-    
     display: flex;
     justify-content: center;
     align-items: center;
@@ -140,8 +138,8 @@ header{
 #product-line{
     display: flex;
     align-items: center;
-    margin-right:58px;
-    margin-left: 55px;
+    margin-right:80px;
+    margin-left: 80px;
     gap: 50px;
 }
 
